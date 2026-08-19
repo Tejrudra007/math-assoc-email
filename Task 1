@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sherlock vs Moriarty - Math Hunt</title>
     <style>
-        body { margin: 0; padding: 0; background-color: #f4f4f7; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { margin: 0; padding: 0; background-color: #0d1117; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         table { border-collapse: collapse; }
-        .wrapper { width: 100%; table-layout: fixed; background-color: #f4f4f7; padding-top: 40px; padding-bottom: 40px; }
-        .main-table { width: 100%; max-width: 600px; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .wrapper { width: 100%; table-layout: fixed; background-color: #0d1117; padding-top: 40px; padding-bottom: 40px; }
+        .main-table { width: 100%; max-width: 600px; background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
         .banner { width: 100%; max-width: 600px; height: auto; display: block; border: 0; }
-        .content-box { padding: 40px 30px; }
-        .heading { font-size: 24px; font-weight: 700; color: #1a2a3a; margin: 0 0 20px 0; text-align: center; text-transform: uppercase; letter-spacing: 1px; }
-        .body-text { font-size: 15px; line-height: 1.6; color: #4a5568; margin: 0 0 20px 0; }
-        .details-table { width: 100%; background-color: #f8fafc; border-left: 4px solid #0052cc; margin: 25px 0; border-radius: 0 8px 8px 0; }
-        .details-box { padding: 20px; }
-        .detail-item { font-size: 15px; color: #1a2a3a; margin-bottom: 8px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .content-box { padding: 40px 35px; }
+        .heading-sub { font-size: 13px; font-weight: 800; color: #58a6ff; margin: 0 0 10px 0; text-align: center; text-transform: uppercase; letter-spacing: 3px; }
+        .heading { font-size: 26px; font-weight: 700; color: #f0f6fc; margin: 0 0 25px 0; text-align: center; text-transform: uppercase; letter-spacing: 1.5px; line-height: 1.3; }
+        .body-text { font-size: 15px; line-height: 1.7; color: #c9d1d9; margin: 0 0 20px 0; }
+        .details-table { width: 100%; background-color: #0d1117; border-left: 4px solid #ff2a5f; margin: 30px 0; border-radius: 0 8px 8px 0; border-top: 1px solid #21262d; border-right: 1px solid #21262d; border-bottom: 1px solid #21262d; }
+        .details-box { padding: 22px; }
+        .detail-item { font-size: 15px; color: #f0f6fc; margin-bottom: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 0.5px; }
         .detail-item:last-child { margin-bottom: 0; }
-        .btn-container { text-align: center; margin: 30px 0 10px 0; }
-        .cta-button { background-color: #0052cc; color: #ffffff !important; padding: 14px 35px; text-decoration: none; font-weight: bold; border-radius: 25px; display: inline-block; box-shadow: 0 4px 6px rgba(0, 82, 204, 0.2); }
-        .footer { background-color: #1a2a3a; padding: 30px; text-align: center; color: #a0aec0; font-size: 13px; }
-        .footer a { color: #cbd5e0; text-decoration: underline; }
+        .btn-container { text-align: center; margin: 35px 0 10px 0; }
+        .cta-button { background-color: #ff2a5f; color: #ffffff !important; padding: 15px 40px; text-decoration: none; font-weight: bold; font-size: 14px; border-radius: 4px; display: inline-block; letter-spacing: 1px; text-transform: uppercase; box-shadow: 0 4px 15px rgba(255, 42, 95, 0.3); }
+        .footer { background-color: #0d1117; padding: 35px; text-align: center; color: #8b949e; font-size: 13px; border-top: 1px solid #21262d; }
+        .footer a { color: #58a6ff; text-decoration: none; font-weight: bold; }
+        .footer a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -28,7 +30,7 @@
     <center class="wrapper">
         <table class="main-table" cellpadding="0" cellspacing="0" role="presentation">
             
-            <!-- Banner Section with Placeholder (Replace with your raw image file link) -->
+            <!-- Banner Section with Your Live Hosted Link -->
             <tr>
                 <td>
                     <img 
@@ -42,8 +44,8 @@
             <!-- Content Section -->
             <tr>
                 <td class="content-box">
-                    <h2 class="heading">By Mathematics Association </h2>
-                    <h2 class="heading">The Treasure Hunt is live soon: Sherlock vs Moriarty</h2>
+                    <div class="heading-sub">Mathematics Association Presents</div>
+                    <h1 class="heading">Sherlock vs Moriarty:<br>The Ultimate Campus Hunt</h1>
                     
                     <p class="body-text">
                         The ultimate mystery on campus is about to unfold. Get ready for an exhilarating campus-wide Treasure Hunt packed with deep enigmas, thrilling twists, and unmatched fun that will keep you guessing at every single turn.
@@ -53,21 +55,21 @@
                         This year’s hunt is going to be absolutely legendary. Expect mind-blowing clues and cryptic riddles that are far more challenging than ever before, strategically hidden across the entire campus. Bring your sharpest logic—the game is officially on.
                     </p>
 
-                    <!-- Safe Nested Logistics Table Structure -->
+                    <!-- Safe Cyber-Noir Logistics Table Structure -->
                     <table class="details-table" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
                             <td class="details-box">
-                                <div class="detail-item"><strong>📅 Date:</strong> TBA</div>
-                                <div class="detail-item"><strong>⏰ Time:</strong> TBA</div>
-                                <div class="detail-item"><strong>📍 Venue:</strong> BITS Pilani Campus</div>
-                                <div class="detail-item"><strong>💰 Cash Prizes:</strong> Coming Soon</div>
+                                <div class="detail-item"><span style="color: #ff2a5f;">📅</span> <strong>Date:</strong> TBA</div>
+                                <div class="detail-item"><span style="color: #ff2a5f;">⏰</span> <strong>Time:</strong> TBA</div>
+                                <div class="detail-item"><span style="color: #ff2a5f;">📍</span> <strong>Venue:</strong> BITS Pilani Campus</div>
+                                <div class="detail-item"><span style="color: #ff2a5f;">💰</span> <strong>Prizes:</strong> Coming Soon</div>
                             </td>
                         </tr>
                     </table>
 
-                    <!-- Call To Action Button -->
+                    <!-- Call To Action Button pointing to the active WhatsApp Community -->
                     <div class="btn-container">
-                        <a href="https://forms.gle" class="cta-button">Register Your Squad Now</a>
+                        <a href="https://chat.whatsapp.com/L47z0449eRe3G9k0rkLpF5" class="cta-button">Join Official WhatsApp Group</a>
                     </div>
                 </td>
             </tr>
@@ -75,11 +77,10 @@
             <!-- Professional Management Footer -->
             <tr>
                 <td class="footer">
-                    <p style="margin: 0 0 10px 0; font-weight: bold; color: #ffffff;">Mathematics Association, BITS Pilani</p>
+                    <p style="margin: 0 0 10px 0; font-weight: bold; color: #f0f6fc;">Mathematics Association, BITS Pilani</p>
                     <p style="margin: 0 0 15px 0;">Connect with us on our socials to crack pre-event clues!</p>
                     <p style="margin: 0;">
-                        <!-- Updated to standard professional association reference -->
-                        <a href="https://instagram.com/maths.assoc.bits.pilani/">Instagram</a> 
+                        <a href="https://instagram.com/maths.assoc.bits.pilani/">Follow on Instagram</a> 
                     </p>
                 </td>
             </tr>
